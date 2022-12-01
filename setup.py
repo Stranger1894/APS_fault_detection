@@ -18,7 +18,7 @@ setup(
     name="sensor",
     version="0.0.1",
     author="sourav_bal",
-    author_email="sourav1894@gmail.com",
+    author_email="sourav1894@gmail.com", 
     packages = find_packages(),
     install_requires=get_requirements()
 )
