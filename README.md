@@ -46,8 +46,8 @@ Git push -f origin main
 ### Install docker
 
 ```bash
-curl -fsSL https://get.docker.com -o get-docker.sh
-sudo sh get-docker.sh
-sudo usermod -aG docker ubuntu
+curl -fsSL https://get.docker.com -o get-docker.sh - Downloads a script get-docker.sh
+sudo sh get-docker.sh - Execte the dowloaded script
+sudo usermod -aG docker ubuntu 
 newgrp docker
 ```
